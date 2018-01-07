@@ -1,0 +1,78 @@
+*{padding: 0;margin: 0}
+
+a{text-decoration: none;}
+
+.footer_service{width: 100%;height: 155px;background: #f7f8f8;
+overflow: hidden;
+ .wrap{width: 100%;height: 104px;background: #e0e0e0;
+ margin:0 auto;margin-top: 51px;
+ position: relative;
+     ul{margin: auto;position: absolute;
+        left: 0;top:0;bottom: 0;right: 0;
+         width: 1200px;height: 42px;
+         li{float: left;list-style: none;width: 200px;height: 42px;
+          padding-left:55px;
+          margin-left: 45px;
+           }
+         
+         } 
+      li:nth-child(1){background: url("/images/主页图片/footer_service_icon.png") no-repeat 0px 0px;}
+      li:nth-child(2){background: url("/images/主页图片/footer_service_icon.png") no-repeat 0px -43px;}
+      li:nth-child(3){background: url("/images/主页图片/footer_service_icon.png") no-repeat 0px -84px;}
+      li:nth-child(4){background: url("/images/主页图片/footer_service_icon.png") no-repeat 0px -129px;}
+      li i,li span{padding-left: 15px;display: block;border-left:1px solid #a6a6a6 ;}
+      li i{font-size: 17px;font-weight: none;color: #008842;}
+      li span{font-size: 12px;}
+       
+  }
+
+}                  
+.footer{width: 1263px;height: 413px;background: #f7f8f8;
+padding-bottom:20px ;
+zoom: 1;
+clear: both;
+.footer-wrap{width: 1200px;height: 342px;margin: 0 auto;margin-top:50px;
+dl{width: 190px;height: 148px;float: left;margin-left: 50px;}
+dl dt{height: 23px;background: url("/images/主页图片/footer_icon.png") no-repeat;
+line-height: 23px;font-size: 15px;text-indent: 40px;}
+dl dd{
+    p{height: 22px;}
+    a{color: #444;
+    &:hover{color: #008842;border-bottom: 1px solid #008842;}
+    }
+    font-size: 13px;
+    padding-left: 20px;
+    height: 110px;
+    border-left: 1px dashed #A8A8A8;
+    margin: 15px 0 0 13px;
+}
+.col2 dt{background-position: 0px -23px;}
+.col3 dt{background-position: 0px -46px;}
+.col4 dt{background-position: 0px -69px;}
+.col5 dt{background-position: 0px -92px;}
+.service{
+      span{padding: 0 10px;}
+        clear: both;
+        padding: 60px 0 20px ;
+        font-size:14px;
+        color: #008842;
+        text-align: center;
+}
+.copyright{
+    font-size: 12px;
+    p{height: 22px;}
+     color:#727272 ;
+     a{color:#727272;}
+      text-align: center;
+      .img a {margin: 10px;}
+    .img a:nth-child(2) img{width: 38px;height: 38px;}  
+    
+    .img a:nth-child(4){display: inline-block;margin-top: 5px;
+     img{float: left;}
+     span{display: inline-block;float: left;color: #939393;}
+    
+    }
+}
+}
+
+}
