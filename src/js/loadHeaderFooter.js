@@ -3,10 +3,9 @@ define(["jquery","cookie"],function($){
 	$.ajax("/html/include/header.html").done(function(data){
      $(".header").html(data)
 	}).done(function(){
-	
 	if($.cookie("username")){
 		$("#login").html(`<a href="#">${$.cookie("username")}</a>`);
-		$(".register").html(`<a href="#">退出</a>`);
+		$(".register").html(`<a href="#">[退出]</a>`);
 		$(".register").click(function(){
 			$.cookie("username","",{expires:-1});
 			location.reload();

@@ -1,0 +1,112 @@
+body{background: #f7f8f8;}
+.regis-wrap{width: 1263px;
+position: relative;
+height: 698px;
+padding-top: 60px;
+.right{position: absolute;right: 50px;margin: 10px;top:18px;
+font-size: 14px;
+color: #444444;
+a{color: orange;border-bottom:1px solid orange ;}
+}
+}
+.regis-content{
+margin-top: 10px;
+background: white;
+padding: 40px 0 50px;
+margin: 0 auto;
+width: 1200px;
+height: 544px;
+border: 1px solid #a5cb20;
+
+.fl{width: 702px;height: 542px;
+   float: left;
+   
+   .error{
+display: none;
+  
+  
+   i{display: inline-block;
+   font-style: normal;
+    border-radius:50% ;
+   margin-right: 5px;
+    line-height: 17px;
+   width: 17px;height: 17px;
+   background: red;
+   text-align: center;
+  color: white;   
+   }
+   color:red;
+   font-size: 14px;}
+ .span{
+     display: inline-block;
+    width: 220px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #444444;
+ float:left
+ }
+ a{color: #727272 ;font-size: 13px;}
+ 
+ input{
+  margin-right: 20px;
+  padding-left: 15px;
+  border: none;
+  height: 38px;
+  border: 1px solid #c1c1c1;
+ }
+ 
+ .next-img{
+ margin-left: 1px;
+ display: inline-block;
+ height: 38px;border: 1px solid #c1c1c1;
+  float:left;
+ margin-right: 20px;
+ width: 120px;
+ background: #f7f7f7;
+ text-align: center;
+ color: #008842;
+ }
+ 
+ 
+ p{margin-bottom:29px ;
+ line-height: 40px;
+
+ }
+ .p2,.p4,.p5,.p6{
+ input{width: 290px;}
+ 
+ }
+
+ #imgCode{float: left;position:absolute;top:10px;right: 217px;}
+ #nex-img{margin-left: 61px;}
+ .p4,.p5,.p6{input{background: url("/images/注册图片/bg_input.png") no-repeat 276px -70px;}}
+ .p2{input{background: url("/images/注册图片/bg_input.png") no-repeat 276px -30px;}}
+ .p1,.p3{
+ position: relative;
+ height: 42px;
+ input{width: 148px;
+ float:left;
+ 
+ }}
+ .p7{
+ margin-top: -10px;
+ span{width: 210px;}
+ a{color: #008842;}
+ input{float: left;margin: 0;margin-left: 240px;}
+ 
+ }
+ .p8{a{display: block;height: 50px;width: 306px;
+ background: #008842;margin-left: 240px;
+ color: white;font-size: 18px;
+ text-align: center;
+ line-height: 50px;
+ }margin-top: 80px;}
+}
+
+
+
+.fr{float: right;position: relative;}
+img{position: absolute;
+top: 70px;right: 150px;}
+}
