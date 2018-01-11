@@ -1,0 +1,13 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data" : [
+			{"id":1, "imgs":"http://img12.yiguoimg.com/d/items/2017/171206/9288716130001798_300.jpg","detail":"美国红蛇果4个约190g/个","price":"19.00","script":"华盛顿苹果协会推荐“智慧之果”","standrad":"4个/份"},
+			{"id":2, "imgs":"http://img09.yiguoimg.com/d/items/2017/171017/9288713971802961_300.jpg","detail":"懒懒椰泰国椰青4个700g/个","price":"59.00","script":"低糖低卡 满满电解质","standrad":"4个/份"},
+			{"id":3, "imgs":"http://img10.yiguoimg.com/d/items/2017/171020/9288714109723476_300.jpg","detail":"美国嘎啦果10个140g以上/个","price":"39.00","script":"酥嫩小甜心，清香久回味","standrad":"10个/份"},
+			{"id":4, "imgs":"http://img13.yiguoimg.com/d/items/2017/171206/9288716130395014_300.jpg","detail":"泰国龙眼2kg","price":"48.00","script":"核小肉厚，莹润剔透”","standrad":"2kg/份"}
+			
+		]
+	}
+}

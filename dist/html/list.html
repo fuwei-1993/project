@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" type="text/css" href="/css/header.css"><link rel="stylesheet" type="text/css" href="/css/footer.css"><link rel="stylesheet" type="text/css" href="/css/list.css"><script src="/lib/requirejs/require.js" type="text/javascript" data-main="/js/list" charset="utf-8"></script><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><style>.catalist{display:none}</style></head><body><div class="header"></div><div class="wrap-banner"><img src="http://img02.yiguo.com/e/others/150925/9288683074887481.jpg"> <img src="http://img02.yiguo.com/e/others/150925/9288683076984633.jpg"> <img src="http://img02.yiguo.com/e/others/150925/9288683077050169.jpg"> <img src="http://img02.yiguo.com/e/others/150925/9288683077115705.jpg"> <img src="http://img02.yiguo.com/e/others/150925/9288683092385593.jpg"></div><div class="filter"><a href="">默认排序</a> <a href="">销量<i></i></a> <a href="">价格<i></i></a> <a href="">评论<i></i></a></div><div class="cart-wrap"><ul class="cart-list"></ul></div><div class="footer"></div><script type="text/html" id="pr-template">{{each products as element }}
+		<li>
+			<div class="id" style="display: none;">
+				{{element.id}}
+			</div>
+			<div class="standrad" style="display: none;">
+				{{element.standrad}}
+			</div>
+			<a href="">
+				<img src="{{element.imgs}}"/>
+			</a>
+			<div class="pro-info">
+		    <div class="pro-name"><a href="">{{element.detail}} </a></div>
+		    
+		    	<div class="pro-price">
+		    		<span>￥</span><span>{{element.price}}</span>
+		    	</div>
+		       
+		    </div>
+		    <div class="pro-buy">
+		    	<span>{{element.script}}</span>
+		    	<a class="add-cart" href="javascript:void(0);">加入购物车</a>
+		    </div>
+		</li>
+		
+		{{/each}}</script></body></html>

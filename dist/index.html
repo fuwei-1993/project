@@ -1,1 +1,37 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>Document</title><script src="lib/requirejs/require.js" type="text/javascript" data-main="js/index" charset="utf-8"></script></head><body><div class="header"></div>我是index<div class="footer"></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>Document</title><script src="lib/requirejs/require.js" type="text/javascript" data-main="js/index" charset="utf-8"></script><link rel="stylesheet" type="text/css" href="/css/Carousel.css"><link rel="stylesheet" type="text/css" href="/css/index.css"><link rel="stylesheet" href="/css/header.css"><link rel="stylesheet" href="/css/footer.css"></head><body><div class="header"></div><div class="banner"></div><div class="wrap-item"><ul><li><img src="/images/主页图片/9288685521608507.jpg"><p><b>新品专区</b> 探访源头产地 臻选当令时鲜</p></li><li><img src="/images/主页图片/9288685666049853.jpg"><p><b>母婴专区</b> 从妈咪孕味到宝贝食尚 我们用心 让您安心</p></li><li><img src="/images/主页图片/9288685565386556.jpg"><p><b>银行专区</b> 银行卡专享 超值购实惠</p></li><li><img src="/images/主页图片/9288683116896057.jpg"><p><b>菜谱专栏</b> 大厨私房菜 餐桌新食尚</p></li></ul></div><div class="floor-wrap"><div class="floor-title"><h2><a href=""><i>F1</i>粮油杂货</a></h2><span><a href="">有机面食</a><a href="">干货</a><a href="" class="last">果干零食</a></span><div class="floor-side"><a href=""><img src="http://img05.yiguoimg.com/e/others/160810/9288696309489930.jpg"></a></div><div class="floor-main"><div class="col1"><a href=""><img src="http://img05.yiguoimg.com/e/others/151008/9288686655545160.jpg"></a></div><div class="col2"><ul><li><a href=""><img src="http://img06.yiguoimg.com/e/others/160216/9288692428349520.jpg"></a></li><li><a href=""><img src="http://img05.yiguoimg.com/e/others/150929/9288685772775229.jpg"></a></li></ul></div><div class="col3"><a href=""><img src="http://img05.yiguoimg.com/e/others/160810/9288696310341898.jpg" alt=""></a></div><div class="logo-list"><a href=""><img src="http://img05.yiguoimg.com/e/others/150927/9288685535633211.jpg" alt=""> </a><a href=""><img src="http://img05.yiguoimg.com/e/others/150927/9288685535698747.jpg" alt=""></a></div></div></div></div><div class="floor-wrap" id="floor"></div><script type="text/html" id="prod_template">{{each products as element}}
+    	
+    		<div class="floor-title">
+    		<h2><a href=""><i>{{element.floor}}</i>{{element.title}} </a></h2>
+    	<span> <a href="">{{element.ri1}}</a><a href="">{{element.ri2}}</a><a href="" class="last">{{element.ri3}}</a></span>
+    	
+    	<div class="floor-side">
+    		<a href=""><img src="{{element.img1}}"/></a>
+    		
+    	</div>
+    	<div class="floor-main">
+    		<div class="col1">
+    			<a href=""><img src="{{element.img2}}"/></a>
+    		</div>
+    		<div class="col2">
+    		<ul>
+    			<li><a href=""><img src="{{element.img3}}"/></a></li>
+    			<li><a href=""><img src="{{element.img4}}"/></a></li>
+    			<li><a href=""><img src="{{element.img41}}"/></a></li>
+    			<li><a href=""><img src="{{element.img42}}"/></a></li>
+    		</ul>
+    		</div>
+    		<div class="col3">
+    			<a href=""><img src="{{element.img5}}" alt="" />	</a>
+    			
+    		</div>
+    		<div class="logo-list">
+    			<a href=""><img src="{{element.img6}}" alt="" />  </a>
+    			<a href=""><img src="{{element.img7}}" alt="" />  </a>
+    		</div>
+    	</div>
+    	</div>
+    	
+    
+    
+    	
+          {{/each}}</script><div class="footer"></div></body></html>

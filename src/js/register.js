@@ -118,6 +118,7 @@ var val = $(".password").val(),
   var user = $(".phone").val();
   var pass = $(".password").val();
  if(passConfir()&&passTest()&&phoneTest()&&flag&&$("#deal").prop("checked")){
+ 	alert("done")
     $.ajax({
         url:"http://10.7.187.131/PHP2/register.php",
         type:"post",

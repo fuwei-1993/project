@@ -1,0 +1,20 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data" : [
+			{"floor":"F2", "title":"方便速食", "ri1":"避风塘", "ri2":"闯码头","ri3":"龙凤",
+			"img1":"http://img06.yiguoimg.com/e/others/160623/9288695082197207.jpg",
+			"img2":"http://img05.yiguoimg.com/e/others/150929/9288685774872381.jpg",
+			"img3":"http://img05.yiguoimg.com/e/others/160810/9288696310604042.jpg",
+			"img4":"http://img06.yiguoimg.com/e/others/160810/9288696310866186.jpg",
+			"img41":"http://img07.yiguoimg.com/e/others/160623/9288695084130519.jpg",
+			"img42":"http://img06.yiguoimg.com/e/others/160623/9288695085801687.jpg",
+			"img5":"http://img05.yiguoimg.com/e/others/150929/9288685775200061.jpg",
+			"img6":"http://img05.yiguoimg.com/e/others/150927/9288685537206075.jpg",
+			"img7":""
+			}
+			
+		]
+	}
+}

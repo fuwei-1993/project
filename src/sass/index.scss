@@ -1,0 +1,104 @@
+.banner{width: 1263px;height: 500px;}
+body{background: #F7F7F7;}
+.wrap-item{width: 1200px;margin: 0 auto;height: 30px;
+margin-top: 30px;
+height: 317px;
+  ul li{float: left;list-style: none;margin-right: 10px;
+  position:relative;
+  img:hover{box-shadow: 0px 1px 3px 3px #888888;}
+  p{position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 270px;
+    height: 57px;
+    line-height: 25px;
+    margin: 10px;
+    color: #575757;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: rgba(255, 255, 255, 0.9);
+    b{display: block;font-size: 22px;}
+    }
+  }
+   
+}
+.floor-wrap{width: 1200px;margin: 0 auto;height: 500px;
+ .floor-title{position: relative;
+    h2{width: 137px;height: 32px;}
+h2 a{font-size: 16px;display: block;color: #b84f00;line-height: 35px;}
+h2  a i{display:inline-block;width: 45px;height: 32px;background: url("/images/主页图片/floor_tit_icon.png") no-repeat -368px 0px ;
+ font-size: 14px;color: white;font-style: normal;
+text-indent: 10px;
+margin-right: 10px;
+
+ }
+  span a{font-size: 12px ;color: #000000;}
+ span {position: absolute;right: 0;top:5px}
+ span .last::after{
+     content: "";
+ }
+ span a::after{
+     content: "|";
+     padding: 0 7px;
+ } 
+ }
+.floor-side {
+    
+    float: left;
+    margin-top: 5px;
+    width: 275px;
+    height: 462px;
+} 
+.floor-main{width: 923px;height: 463px;float: left;
+position: relative;border: 1px solid #d5d5d5;
+a{display: block;}
+a:hover{transform: translateX(7px);transition: transform .2s linear;}
+
+
+     margin-top: 4px;
+     .col1 {
+         overflow: hidden;
+         background: white;
+         float: left;
+    width: 234px;
+    height: 383px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+    ul{list-style:none;float: left;overflow: hidden;width: 442px;}
+    
+    ul li{
+    overflow: hidden;
+    height: 191px;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+    background: #fff;}
+    .col3{width: 246px;height: 461px;float: left;background: white;overflow: hidden;}
+    
+    .logo-list{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 652px;
+    height: 55px;
+    padding: 12px;
+
+    border-right: 1px solid #d5d5d5;
+    background: #fff;
+   a{display: inline-block;margin: 0 10px;}
+}
+    
+
+   } 
+   
+       
+   }
+ 
+ #floor{ul li{float: left;} margin-top: 30px;h2 i{background-position:-322px 0px ;}
+  h2 a{color: #3ca3dc;}
+ }
