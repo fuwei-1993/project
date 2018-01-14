@@ -12,6 +12,9 @@ require(["config"], function(){
 				var html = template("prod_template",prd)
 				$("#floor").html(html)				
 			}
+		}).done(function(){
+			
+			
 		});
      
        

@@ -25,9 +25,10 @@ height: 317px;
   }
    
 }
-.floor-wrap{width: 1200px;margin: 0 auto;height: 500px;
- .floor-title{position: relative;
-    h2{width: 137px;height: 32px;}
+
+.floor-wrap{width: 1200px;margin: 0 auto;
+ .floor-title{position: relative;float: left;margin: 0 auto;
+    h2{width: 137px;height: 32px;margin-top: 20px;}
 h2 a{font-size: 16px;display: block;color: #b84f00;line-height: 35px;}
 h2  a i{display:inline-block;width: 45px;height: 32px;background: url("/images/主页图片/floor_tit_icon.png") no-repeat -368px 0px ;
  font-size: 14px;color: white;font-style: normal;
@@ -36,7 +37,7 @@ margin-right: 10px;
 
  }
   span a{font-size: 12px ;color: #000000;}
- span {position: absolute;right: 0;top:5px}
+ span {position: absolute;right: 0;top:25px}
  span .last::after{
      content: "";
  }
@@ -98,7 +99,8 @@ a:hover{transform: translateX(7px);transition: transform .2s linear;}
    
        
    }
- 
- #floor{ul li{float: left;} margin-top: 30px;h2 i{background-position:-322px 0px ;}
-  h2 a{color: #3ca3dc;}
+         
+ #floor{ul li{float: left;} margin-top: 30px;.floor-title:nth-child(2) h2 {i{background-position:-322px 0px ;};a{color: #3ca3dc;}}
+
  }
+
