@@ -10,43 +10,43 @@ require(["config"], function(){
 					products:data.res_body.data
 				};
 				var html = template("prod_template",prd)
-				$("#floor").html(html)				
+				$("#floor").html(html)
 			}
 		}).done(function(){
-			
-			
+
+
 		});
-     
-       
-      
-       
-      
+
+
+
+
+
 	});
 	require(["tools","carousel"],function(){
-		
-		
+
+
 		$.ajax({
 			dataType:"json",
 			type:"get",
 			url:"/mock/data.json",
 			success:function(data){
-				
+
 				var d = new Carousel({
-			
+
 		    	imgs:data.res_body.imgs,
 						container:$(".banner"),
-					     width:1263,
+					     width:"100%",
 						height:500,
 						type:"slide",
 						duration:3000
 		})
 				d.autoPlay();
-				
+
 			}
 		});
-		
-	
+
+
 	})
 
-	
+
 });

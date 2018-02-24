@@ -1,12 +1,12 @@
 body{background: #f7f9f8;;}
-.wrap{background: #e0e0e0;width: 1263px;height: 78px;
+.wrap{background: #e0e0e0;width: 100%;height: 78px;
 
  .headerx{width: 1200px;margin: 0 auto;
  position: relative;
    img{margin-top: 15px;}
    ul{list-style: none;
     position: relative;
-   
+
    li{float: left;
    position: relative;
    b{width: 36px;
@@ -30,9 +30,9 @@ body{background: #f7f9f8;;}
     margin-top: 15px;
     margin-right: 0;
     overflow: hidden;
-        
+
     }
-     span{    
+     span{
    top: -20px;
    right: -63px;
     display: inline-block;
@@ -42,20 +42,20 @@ body{background: #f7f9f8;;}
    position: absolute;
     color: #333;}
    }
-   
+
     .l1{ b{background: #008842;color: white;}
     span{color: #008842;}
-    
+
     }
-   
+
    }
    .steps{position: absolute;
     top: 30px;
     right: 40px;
-   
-    
-     
-    
+
+
+
+
     }
   }
 
@@ -68,12 +68,12 @@ a{    color: #444;
     text-decoration: none;
     outline: none;
     &:hover{color: #008842;}
-   
+
     }
 h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px;
   border-bottom: 2px solid #008842;
   position: relative;
-  
+
   a{
       font-size: 12px;
           cursor: pointer;
@@ -105,13 +105,13 @@ h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px
     color: #262626;
     text-align: center;
     padding: 0 10px;
-}   
+}
     .cart-check{width: 120px;
         text-align: left;
        padding-left: 20px;
        input{margin-right: 16px;float: left;margin-top: 14px;}
     }
-   
+
 }
    .ub{width: 75px;}
     .num{width: 110px;}
@@ -121,7 +121,7 @@ h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px
     font-size: 12px;
     line-height: 3em;
     color: #666;
-    
+
     margin-top: 20px;
     padding: 10px;
     label{margin-left: 10px;}
@@ -138,7 +138,7 @@ h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px
     margin-left: 0;border: none;}
      }
   }
-  
+
   .cart-body{
       td{
     border-top: 1px solid #ebebeb;
@@ -149,7 +149,7 @@ h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px
     color: #262626;
     font-size: 14px;
     line-height: 1em;
-    } 
+    }
       .calc{    width: 110px;
     color: #e93005;
     font-size: 14px;
@@ -177,7 +177,7 @@ h2{background: url("/images/购物车/bg_cart.png") no-repeat white;height: 38px
     border: 1px solid #ebebeb;
     position: relative;}
     }
-    
+
   }
-  
+
 }

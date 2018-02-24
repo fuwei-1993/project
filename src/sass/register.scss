@@ -1,5 +1,5 @@
 body{background: #f7f8f8;}
-.regis-wrap{width: 1263px;
+.regis-wrap{width: 100%;
 position: relative;
 height: 698px;
 padding-top: 60px;
@@ -20,11 +20,11 @@ border: 1px solid #a5cb20;
 
 .fl{width: 702px;height: 542px;
    float: left;
-   
+
    .error{
 display: none;
-  
-  
+
+
    i{display: inline-block;
    font-style: normal;
     border-radius:50% ;
@@ -33,7 +33,7 @@ display: none;
    width: 17px;height: 17px;
    background: red;
    text-align: center;
-  color: white;   
+  color: white;
    }
    color:red;
    font-size: 14px;}
@@ -47,7 +47,7 @@ display: none;
  float:left
  }
  a{color: #727272 ;font-size: 13px;}
- 
+
  input{
   margin-right: 20px;
   padding-left: 15px;
@@ -55,7 +55,7 @@ display: none;
   height: 38px;
   border: 1px solid #c1c1c1;
  }
- 
+
  .next-img{
  margin-left: 1px;
  display: inline-block;
@@ -67,15 +67,15 @@ display: none;
  text-align: center;
  color: #008842;
  }
- 
- 
+
+
  p{margin-bottom:29px ;
  line-height: 40px;
 
  }
  .p2,.p4,.p5,.p6{
  input{width: 290px;}
- 
+
  }
 
  #imgCode{float: left;position:absolute;top:10px;right: 217px;}
@@ -87,14 +87,14 @@ display: none;
  height: 42px;
  input{width: 148px;
  float:left;
- 
+
  }}
  .p7{
  margin-top: -10px;
  span{width: 210px;}
  a{color: #008842;}
  input{float: left;margin: 0;margin-left: 240px;}
- 
+
  }
  .p8{a{display: block;height: 50px;width: 306px;
  background: #008842;margin-left: 240px;
